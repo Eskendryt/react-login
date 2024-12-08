@@ -21,13 +21,13 @@ function LoginForm({ onLogin }) {
         type="text"
         placeholder="Username"
         value={username}
-        onChange={(e) => setUsername(e.target.value)}
+        onChange={(value) => setUsername(value.target.value)}
       />
       <input
         type="password"
         placeholder="Password"
         value={password}
-        onChange={(e) => setPassword(e.target.value)}
+        onChange={(value) => setPassword(value.target.value)}
       />
       <button type="submit">Login</button>
     </form>
